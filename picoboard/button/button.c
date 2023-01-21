@@ -6,11 +6,11 @@
 
 #include <stdio.h>
 #include "pico/stdlib.h"
+// #include "pico/cyw43_arch.h"
 #include "hardware/gpio.h"
 #include "hardware/sync.h"
 #include "hardware/structs/ioqspi.h"
 #include "hardware/structs/sio.h"
-
 // This example blinks the Pico LED when the BOOTSEL button is pressed.
 //
 // Picoboard has a button attached to the flash CS pin, which the bootrom
